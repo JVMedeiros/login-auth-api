@@ -19,29 +19,4 @@ public class User {
     private String name;
     private String email;
     private String password;
-
-    public String getEmail() {
-        return this.email;
-    }
-
-    public String getPassword() {
-        return this.password;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setEmail(String newEmail) {
-        this.email = newEmail;
-    }
-
-    public void setName(String newName) {
-        this.email = newName;
-    }
-
-    public void setPassword(String newPassword) {
-        this.email = newPassword;
-    }
-
 }
